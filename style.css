@@ -1,0 +1,1055 @@
+img {
+    width: 100%;
+
+}
+
+body {
+    margin: 0;
+}
+
+#bgImg {
+    background-image: url(fly.jpg);
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.vertical {
+    width: 640px;
+    position: relative;
+}
+
+.verticalLine {
+    display: block;
+    position: absolute;
+    background-color: yellow;
+    opacity: 0.3;
+    width: 1px;
+    top: 2.5rem;
+    bottom: 0px;
+    left: 4.5%;
+    height: 350px;
+    transform: translateX(-50%)
+}
+
+.verticalOm {
+    width: 640px;
+    position: relative;
+}
+
+.verticalLineOm {
+    display: block;
+    position: absolute;
+    background-color: yellow;
+    opacity: 0.3;
+    width: 1px;
+    top: 2.5rem;
+    bottom: 0px;
+    left: 4.5%;
+    height: 380px;
+    transform: translateX(-50%)
+}
+
+
+/*-links-*/
+.topNav {
+    position: absolute;
+    /*  width: auto;*/
+    padding-top: 0.5rem;
+    overflow: hidden;
+}
+
+.topNav a {
+    float: right;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    color: #f2f2f2;
+    /*text-align: right;*/
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+.topNav a:hover {
+    font-size: 1.3rem;
+    color: skyblue;
+}
+
+#firstSection h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    color: yellow;
+    padding-top: 7rem;
+    padding-left: 2rem;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: #E0B8B8;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: #f2f2f2;
+
+}
+
+footer a:hover {
+    color: skyblue;
+}
+
+footer a:link {
+    text-decoration-line: none;
+}
+
+
+
+/*--------------OM--------------------------------------------*/
+
+/*---animation OM-----*/
+
+/*.wrapperOm .col .intro {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: flex;
+    color: black;
+    height: 8vh;
+}*/
+
+/*.wrapperOm .col .typing {
+    margin-left: 10px;
+    position: relative;
+}*/
+
+/*
+.wrapperOm .col .typing::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    width: 1px;
+    height: 100%;
+    border-right: 2px solid black;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}*/
+
+/*---animation Om SLUT--------*/
+
+
+
+
+
+
+#omSection {
+    padding-top: 3rem;
+    background-color: #E0B8B8;
+}
+
+.wrapperOm {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapperOm .row {
+    position: relative;
+}
+
+.omMig {
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    font-size: 18px;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    color: yellow;
+
+}
+
+.wrapperOm .imgOm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    padding-top: 4rem;
+
+}
+
+.wrapperOm .col {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 2rem;
+}
+
+.wrapperCV {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding-top: 3rem;
+}
+
+.wrapperCV h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: yellow;
+    padding-top: 1rem;
+}
+
+.wrapperCV .col h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-left: 1rem;
+    padding-top: 5rem;
+
+
+}
+
+.wrapperCV .col {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+}
+
+
+
+.wrapperCV img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.wrapperCV .col p {
+    padding-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    padding-bottom: 4rem;
+    padding-right: 0.5rem;
+
+}
+
+.wrapperKontakt h2 {
+    color: yellow;
+}
+
+.wrapperKontakt {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-right: 0.5rem;
+}
+
+
+/*--------------Galleri--------------------------------------------*/
+
+#galleriSection a:hover {
+    color: skyblue;
+}
+
+#galleriSection {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#galleriSection h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+.wrapperTo {
+    padding-top: 6rem;
+    background-color: #97ADAF;
+
+
+}
+
+.wrapperTo .col:first-child {
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapperTo .col img {
+    padding-bottom: 0.5rem;
+}
+
+.wrapperTo .col a {
+    color: yellow;
+    text-decoration-line: underline;
+}
+
+.wrapperTre {
+    background-color: #b8ccce;
+    padding-top: 3rem;
+}
+
+.wrapperTre .col:first-child {
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapperTre .col img {
+    padding-bottom: 0.5rem;
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+.flex_container .col {
+    width: 100px;
+    margin: 5px;
+    padding: 1rem;
+}
+
+
+
+.wrapperFire {
+    padding-top: 2rem;
+    background-color: #8eb2ba;
+}
+
+.wrapperFire .col:first-child {
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapperFire .col img {
+    padding-bottom: 0.5rem;
+}
+
+.wrapperFire .col a {
+    font-weight: bold;
+    color: yellow;
+    text-decoration-line: underline;
+}
+
+.wrapperFem {
+    padding-top: 2rem;
+    background-color: #a9c1b9;
+
+}
+
+.wrapperFem .colFem {
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapperFem img {
+    padding-bottom: 0.5rem;
+}
+
+.wrapperFem .colFem a {
+    font-weight: bold;
+    color: yellow;
+    text-decoration-line: underline;
+}
+
+
+/*---------------------Tablet--------------------------------------------*/
+
+@media (min-width: 600px) {
+
+    .verticalLine {
+        opacity: 0.3;
+        width: 1px;
+        top: 4.5rem;
+        bottom: 0px;
+        left: 26%;
+        height: 390px;
+    }
+
+    .verticalLineOm {
+        display: block;
+        position: absolute;
+        background-color: yellow;
+        opacity: 0.3;
+        width: 1px;
+        top: 6rem;
+        bottom: 0px;
+        left: 26%;
+        height: 500px;
+        transform: translateX(-50%)
+    }
+
+
+    #firstSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #firstSection h1 {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        padding: 3rem;
+        padding-left: 4rem;
+        padding-right: 7rem;
+        padding-top: 8.5rem;
+        font-size: 4rem;
+    }
+
+    .topNav {
+        padding-left: 2rem;
+    }
+
+    .topNav a {
+        padding-left: 1rem;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+
+    .topNav a:hover {
+        font-size: 1.5rem;
+        color: skyblue;
+    }
+
+    footer a {
+        font-size: 1.6rem;
+        padding-left: 2rem;
+    }
+
+    #firstSection h1 {
+        padding-left: 11rem;
+    }
+
+    .omMig {
+        top: 1rem;
+        left: 7rem;
+        bottom: 3rem;
+        font-size: 35px;
+        color: yellow;
+    }
+
+    .wrapperOm {
+        padding-top: 2rem;
+    }
+
+    .wrapperOm .imgOm {
+        width: 40%;
+        padding-left: 9rem;
+    }
+
+    .wrapperOm p {
+        padding-left: 4rem;
+        padding-right: 3rem;
+        padding-top: 1rem;
+        font-size: 20px;
+    }
+
+    .wrapperOm .col .intro {
+        padding-left: 4rem;
+    }
+
+
+    .wrapperCV .col h2 {
+        padding-left: 2rem;
+        padding-top: 5rem;
+        color: yellow;
+        font-size: 40px;
+    }
+
+    .wrapperCV .col h3 {
+        font-size: 27px;
+        padding-left: 4rem;
+        padding-top: 14rem;
+    }
+
+    .wrapperCV .col p {
+        padding-left: 4rem;
+        padding-top: 3rem;
+        padding-right: 4rem;
+        font-size: 20px;
+    }
+
+    .wrapperKontakt h2 {
+        padding-left: 2rem;
+        padding-top: 2rem;
+        color: yellow;
+        font-size: 35px;
+    }
+
+    .wrapperKontakt p {
+        padding-left: 8rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        font-size: 20px;
+    }
+
+    .wrapperTo h2 {
+        padding-left: 2rem;
+        padding-top: 2rem;
+
+    }
+
+    .wrapperTo .col p {
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        font-size: 20px;
+
+    }
+
+    .wrapperTo .col a {
+        font-size: 25px;
+        color: yellow;
+        text-decoration-line: underline;
+    }
+
+    .wrapperTre h2 {
+        padding-left: 2rem;
+        padding-top: 2rem;
+
+    }
+
+    .wrapperTre .col p {
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        font-size: 20px;
+
+    }
+
+    .wrapperTre .flex_container .col {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+    }
+
+    .wrapperFire h2 {
+        padding-left: 2rem;
+        padding-top: 2rem;
+
+    }
+
+    .wrapperFire .col p {
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        font-size: 20px;
+    }
+
+    .wrapperFire .col a {
+        font-size: 25px;
+        font-weight: bold;
+        color: yellow;
+        text-decoration-line: underline;
+    }
+
+    .wrapperFem h2 {
+        padding-left: 2rem;
+        padding-top: 2rem;
+
+    }
+
+    .wrapperFem .colFem p {
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        font-size: 20px;
+
+    }
+
+    .wrapperFem .colFem a {
+        font-size: 25px;
+
+    }
+}
+
+/*----------------------------DESKTOP----------*/
+
+@media (min-width: 1000px) {
+
+    .verticalLineOm {
+        display: block;
+        position: absolute;
+        background-color: yellow;
+        opacity: 0.3;
+        width: 1px;
+        top: 6rem;
+        bottom: 0px;
+        left: 60%;
+        height: 635px;
+        transform: translateX(-50%)
+    }
+
+    .verticalLine {
+        opacity: 0.3;
+        width: 1px;
+        top: 5rem;
+        bottom: 0px;
+        left: 48%;
+        height: 640px;
+
+    }
+
+    #firstSection h1 {
+        padding-left: 20rem;
+        padding-right: 25rem;
+        padding-top: 10rem;
+        font-size: 6rem;
+    }
+
+    .topNav {
+        padding-left: 4rem;
+    }
+
+    .topNav a {
+        font-size: 1.8rem;
+        padding-left: 2rem;
+    }
+
+    .topNav a:hover {
+        font-size: 1.8rem;
+        color: skyblue;
+    }
+
+    footer {
+        font-size: 1.8rem;
+        padding-top: 1rem;
+    }
+
+    /*---------------------------OM-------------*/
+
+
+    .wrapperOm {
+        padding-top: 4rem;
+    }
+
+    .wrapperOm .imgOm {
+        width: 30%;
+        padding-left: 14rem;
+        padding-top: 5rem;
+    }
+
+    .omMig {
+        padding-right: 10rem;
+        padding-top: 1rem;
+        left: 20rem;
+        padding-bottom: 10rem;
+        font-size: 50px;
+        color: yellow;
+        padding-left: 1rem;
+
+    }
+
+    .wrapperOm .col p {
+        font-size: 25px;
+        padding-left: 15rem;
+        padding-right: 12rem;
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+
+
+    }
+
+    .wrapperOm .col .intro {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        padding-left: 15rem;
+        font-size: 25px;
+    }
+
+
+    .wrapperCV .wrapperWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .wrapperCV .col h2 {
+        font-size: 50px;
+        color: yellow;
+        padding-top: 20rem;
+        padding-left: 9rem;
+    }
+
+    .wrapperCV .col h3 {
+        padding-top: 18rem;
+        padding-left: 27rem;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .wrapperCV .col p {
+        font-size: 25px;
+        padding-top: 4rem;
+        padding-left: 27rem;
+        padding-right: 12rem;
+        margin: 0;
+    }
+
+    .wrapperKontakt {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 5rem;
+    }
+
+    .wrapperKontakt h2 {
+        font-size: 45px;
+        color: yellow;
+        padding-left: 9rem;
+    }
+
+    .wrapperKontakt p {
+        font-size: 25px;
+        padding-right: 20rem;
+
+    }
+
+
+
+    /*----------------------------GALLERI---------------*/
+
+
+    .wrapperTo {
+        display: grid;
+        grid-template-columns: 38% 30% 30%;
+        grid-template-rows: 40% 40%;
+        grid-gap: 15px;
+        padding-left: 4rem;
+        padding-right: 3.5rem;
+        padding-bottom: 7rem;
+        padding-top: 10rem;
+    }
+
+    .wrapperTo .col:first-child {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        padding: 1rem;
+        font-size: 25px;
+        border: 1px solid yellow;
+    }
+
+    .wrapperTo .col:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .wrapperTo .col:nth-child(3) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
+
+    .wrapperTo .col:nth-child(4) {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .wrapperTo .col:nth-child(5) {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+
+    .wrapperTre {
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+        grid-template-rows: 30% 35% 35%;
+        grid-gap: 5px;
+        padding-left: 4rem;
+        padding-right: 3.5rem;
+        padding-bottom: 7rem;
+        padding-top: 7rem;
+    }
+
+    .wrapperTre .col:first-child {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        padding: 1rem;
+        font-size: 25px;
+        border: 1px solid yellow;
+
+    }
+
+    .wrapperTre .flex_container:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .wrapperTre .flex_container:nth-child(3) {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .wrapperTre .flex_container:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .wrapperTre .flex_container:nth-child(5) {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .wrapperTre .flex_container:nth-child(6) {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .wrapperTre .flex_container .col {
+        border: none;
+        padding: 0.5rem;
+    }
+
+    .wrapperFire {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-gap: 15px;
+        padding-left: 4rem;
+        padding-right: 3.5rem;
+        padding-bottom: 7rem;
+        padding-top: 7rem;
+    }
+
+    .wrapperFire .col:first-child {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        padding: 1rem;
+        font-size: 25px;
+        padding-top: 2rem;
+        border: 1px solid yellow;
+
+    }
+
+    .wrapperFire .col:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+
+    }
+
+    .wrapperFire .col:nth-child(3) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
+
+    .wrapperFire .col:nth-child(9) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding-top: 9.5rem;
+    }
+
+    .wrapperFire .col:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 3/4;
+
+    }
+
+    .wrapperFire .col:nth-child(5) {
+        grid-column: 2/3;
+        grid-row: 4/5;
+
+    }
+
+    .wrapperFire .col:nth-child(6) {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .wrapperFire .col:nth-child(7) {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    .wrapperFire .col:nth-child(8) {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+
+    .wrapperFem {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-gap: 15px;
+        padding-left: 4rem;
+        padding-right: 3.5rem;
+        padding-bottom: 7rem;
+        padding-top: 7rem;
+    }
+
+    .wrapperFem .colFem {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        padding: 1rem;
+        font-size: 25px;
+        padding-top: 2rem;
+        border: 1px solid yellow;
+    }
+
+    .wrapperFem .col:first-child {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .wrapperFem .col:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .wrapperFem .col:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .wrapperFem .col:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .wrapperFem .col:nth-child(5) {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+
+
+}
+
+@media (min-width: 1300px) {
+
+    .verticalLine {
+        opacity: 0.3;
+        width: 1px;
+        top: 6rem;
+        bottom: 0px;
+        left: 58%;
+        height: 650px;
+
+    }
+
+    #firstSection h1 {
+        padding-left: 24rem;
+        padding-right: 25rem;
+        padding-top: 10rem;
+        font-size: 6rem;
+    }
+
+    .topNav {
+        padding-left: 5rem;
+    }
+
+    .omMig {
+        padding-left: 7rem;
+    }
+
+    .verticalLineOm {
+        display: block;
+        position: absolute;
+        background-color: yellow;
+        opacity: 0.3;
+        width: 1px;
+        top: 6rem;
+        bottom: 0px;
+        left: 72%;
+        height: 820px;
+        transform: translateX(-50%)
+    }
+
+    .wrapperOm .col p {
+        padding-left: 20rem;
+        padding-right: 25rem;
+    }
+
+
+    .wrapperTo .col p {
+        line-height: 1.6;
+    }
+
+    /*    .wrapperTo .col:nth-child(2) {
+        padding-top: 13rem;
+    }
+
+    .wrapperTo .col:nth-child(4) {
+        padding-top: 13rem;
+    }*/
+
+    .wrapperTre .col p {
+        line-height: 1.6;
+    }
+
+    .wrapperFire .col p {
+        line-height: 1.6;
+    }
+
+    .wrapperFem .colFem p {
+        line-height: 1.6;
+    }
+}
+
+/*------------------------------------ANIMATIONER--------------------------*/
+
+span {
+    opacity: 0;
+    transition: all 1s ease;
+
+}
+
+span.fade {
+    opacity: 1;
+}
+
+.fade_out {
+    animation-name: fade_out_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.puls {
+    animation-name: puls_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes puls_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+.hide {
+    display: none;
+}
